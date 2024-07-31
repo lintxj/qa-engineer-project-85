@@ -308,3 +308,17 @@
    - Без ввода информации в поля нажимаем на кнопку Sing in with Github
   expected-result: |
    Авторизация через профиль Github прошла успешно, мы автоматически переходим на главную страницу сайта https://codebattle.hexlet.io/#lobby   
+
+- summary: |
+   Проверка возможности игры без авторизации
+  requirement: |
+   При нажатии на кнопку Try simple battle начинается игра с ботом  
+  prerequisites: | 
+   Открыта страница https://codebattle.hexlet.io/
+   Пользователь не авторизирован
+  test-data: |
+   no data
+  steps:
+   - На странице нажимаем на кнопку Try simple battle
+  expected-result: |
+   При нажатии на кнопку Try simple battle началась игра с ботом 
