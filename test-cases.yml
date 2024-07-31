@@ -322,3 +322,17 @@
    - На странице нажимаем на кнопку Try simple battle
   expected-result: |
    При нажатии на кнопку Try simple battle началась игра с ботом 
+
+- summary: |
+   Проверка работы кнопки просмотра профиля
+  requirement: |
+   При нажатии на кнопку My profile открывается страница с данными пользователя  
+  prerequisites: | 
+   Открыта страница https://codebattle.hexlet.io/#lobby
+  test-data: |
+   no data
+  steps:
+   - В правом верхнем углу страницы нажимаем на юзернейм пользователя
+   - В открывшемся меню нажимаем на My profile
+  expected-result: |
+   При нажатии на кнопку My profile открылась страница с данными пользователя   
