@@ -185,3 +185,22 @@
    - Нажимаем кнопку Submit
   expected-result: |
    Регистрации не произошло, высветилось предупреждение, что поле Email не заполнено   
+
+- summary: |
+   Возможность зарегистрироваться на сайте без указания ника
+  requirement: |
+   При заполнении формы регистрации с корректным email и password, но без ввода nickname, поле должно высветить предупреждение о том, что регистрация без nickname невозможна
+  prerequisites: | 
+   Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+   Nickname = пустое поле
+   Email = le_ciel007@mail.ru
+   Password = 1234567
+  steps:
+   - Поле Nickname оставляем пустым
+   - Заполняем поле Email
+   - Заполняем поле Password
+   - Повторяем Password
+   - Нажимаем кнопку Submit
+  expected-result: |
+   Регистрации не произошло, высветилось предупреждение, что поле Nickname не заполнено    
