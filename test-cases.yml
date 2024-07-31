@@ -222,3 +222,22 @@
    - Нажимаем кнопку Submit
   expected-result: |
    Регистрации не произошло, высветилось предупреждение, что поле Password не заполнено   
+
+- summary: |
+   Возможность зарегистрироваться на сайте с паролем на русском языке
+  requirement: |
+   При вводе пароля на русском языке регистрация возможна
+  prerequisites: | 
+   Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
+  test-data: |
+   Nickname = Alina
+   Email = le_ciel007@mail.ru
+   Password = привет
+  steps:
+   - Заполняем поле Nickname
+   - Заполняем поле Email
+   - Заполняем поле Password
+   - Дублируем Password
+   - Нажимаем кнопку Submit
+  expected-result: |
+   Регистрации прошла успешно, никаких предупреждений не высветилось   
