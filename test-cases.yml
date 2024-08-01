@@ -520,4 +520,18 @@
    - В правом верхнем углу страницы нажимаем на свой юзернейм
    - В открывшемся меню нажимаем на Hexlet
   expected-result: |
-   При нажатии на кнопку Hexlet произошёл переход на https://ru.hexlet.io/        
+   При нажатии на кнопку Hexlet произошёл переход на https://ru.hexlet.io/  
+
+- summary: |
+   Проверка работы кнопки Tg#codebattle 
+  requirement: |
+   При нажатии на кнопку Tg#codebattle происходит переход в телеграм канал Хекслет  
+  prerequisites: | 
+   Открыта страница https://codebattle.hexlet.io/#lobby
+  test-data: |
+   no data
+  steps:
+   - В правом верхнем углу страницы нажимаем на свой юзернейм
+   - В открывшемся меню нажимаем на Tg#codebattle
+  expected-result: |
+   При нажатии на кнопку Tg#codebattle произошёл переход на телеграм канал Хекслет
