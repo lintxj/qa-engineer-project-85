@@ -647,3 +647,15 @@
   expected-result: |
    При создании новой игры нам выпало рандомная задача        
    
+- summary: |
+   Проверка работы кнопки Create battle
+  requirement: |
+   При нажатии на кнопку Create battle должна запуститься новая игра 
+  prerequisites: | 
+   Открыто меню создания новой игры
+  test-data: |
+   no data
+  steps:
+   - Нажимаем на кнопку Create battle
+  expected-result: |
+   При нажатии на кнопку Create battle запустилась новая игра
