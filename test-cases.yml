@@ -507,3 +507,17 @@
    - В открывшемся меню нажимаем на SourceCode
   expected-result: |
    При нажатии на кнопку SourceCode произошёл переход на Github     
+
+- summary: |
+   Проверка работы кнопки Hexlet
+  requirement: |
+   При нажатии на кнопку Hexlet происходит переход на https://ru.hexlet.io/  
+  prerequisites: | 
+   Открыта страница https://codebattle.hexlet.io/#lobby
+  test-data: |
+   no data
+  steps:
+   - В правом верхнем углу страницы нажимаем на свой юзернейм
+   - В открывшемся меню нажимаем на Hexlet
+  expected-result: |
+   При нажатии на кнопку Hexlet произошёл переход на https://ru.hexlet.io/        
