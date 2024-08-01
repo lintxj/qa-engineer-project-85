@@ -535,3 +535,17 @@
    - В открывшемся меню нажимаем на Tg#codebattle
   expected-result: |
    При нажатии на кнопку Tg#codebattle произошёл переход на телеграм канал Хекслет
+
+- summary: |
+   Проверка возможности создания новой игры
+  requirement: |
+   При нажатии на кнопку Create a game открывается окно с настройками для создания новой игры   
+  prerequisites: | 
+   Открыта страница https://codebattle.hexlet.io/#lobby
+   Пользователь авторизирован
+  test-data: |
+   no data
+  steps:
+   - Нажимаем на кнопку Create a game
+  expected-result: |
+   При нажатии на кнопку Create a game открылось окно с настройками для создания новой игры     
