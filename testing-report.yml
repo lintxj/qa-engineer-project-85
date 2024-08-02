@@ -139,6 +139,26 @@
     Проверка работы кнопки Hexlet
   status: pass      
 
-  
+- summary: |
+    Проверка работы кнопки Tg#codebattle
+  status: pass  
+
+- summary: |
+    Проверка возможности создания новой игры
+  status: pass
+
+- summary: |
+    Проверка возможности фильтрации задач по уровню сложности
+  status: pass
+
+- summary: |
+    Проверка возможности выбора типа игры With other user
+  status: pass
+
+- summary: |
+    Проверка возможности выбора типа игры With a friend
+  status: pass      
+
+    
   
     
