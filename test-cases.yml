@@ -796,4 +796,19 @@
    - При всплывании окна с текстом Are you sure you want to give up? нажать на Cancel
   expected-result: |
    После отмены команды Give up игра продолжилась      
-   
+
+- summary: |
+   Проверка возможности очистить введёное решение  
+  requirement: |
+   При нажатии кнопки Reset solution происходит очистка поля ввода от ранее введенных данных
+  prerequisites: | 
+   Создана новая игра
+   В поле ввода вписано решение
+  test-data: |
+   no data
+  steps:
+   - Ввести решение
+   - Нажать на кнопку Reset solution (круговые стрелки)
+  expected-result: |
+   При нажатии на кнопку Reset solution ранее введенные данные стёрлись      
+      
