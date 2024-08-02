@@ -921,3 +921,17 @@
     - Открываем сайт https://codebattle.hexlet.io/#lobby через программу
   expected-result: |
     При открытии сайта в браузере Opera всё отображается и работает корректно   
+
+- summary: |
+    Проверка совместимости сайта с последней версией браузера Safari
+  requirement: |
+    При открытии сайта в браузере Safari всё отображается и работает корректно 
+  prerequisites: |
+    Открываем https://www.browserstack.com/
+  test-data: |
+    браузер Safari версия 5.1
+  steps:
+    - Выбираем браузер Safari версия 5.1
+    - Открываем сайт https://codebattle.hexlet.io/#lobby через программу
+  expected-result: |
+    При открытии сайта в браузере Safari всё отображается и работает корректно   
