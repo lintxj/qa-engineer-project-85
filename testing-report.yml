@@ -179,6 +179,26 @@
     Проверка работы кнопки Create battle
   status: pass        
 
+- summary: |
+    Проверка возможности перевода задания на русский/английский язык
+  status: pass  
+
+- summary: |
+    Проверка работы кнопки Expand
+  status: pass
+
+- summary: |
+    Проверка работы кнопки Show guide
+  status: pass
+
+- summary: |
+    Проверка возможности изменения языка программирования во время игры  
+  status: pass
+
+- summary: |
+    Проверка возможности смены цвета фона в поле для ввода
+  status: pass          
+
     
   
     
