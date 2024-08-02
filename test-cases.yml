@@ -892,5 +892,20 @@
    - Нажимаем на кнопку Copy history game url
   expected-result: |
    При нажатии на кнопку Copy history game url ссылка на неё скопировалась в буфер обмена
+
+- summary: |
+    Проверка совместимости сайта с последней версией Google Chrome
+  requirement: |
+    При открытии сайта в браузере Google Chrome всё отображается и работает корректно 
+  prerequisites: |
+    Открываем https://www.browserstack.com/
+  test-data: |
+    браузер Google Chrome версия 127
+  steps:
+    - Выбираем Google Chrome версия 127
+    - Открываем сайт https://codebattle.hexlet.io/#lobby через программу
+  expected-result: |
+    При открытии сайта в браузере Google Chrome всё отображается и работает
+    корректно   
    
    
