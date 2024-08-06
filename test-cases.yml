@@ -7,11 +7,11 @@
    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
    Nickname = Alina95
-   Email = le_ciel007@mail.ru
+   Email = le_ciel006@mail.ru
    Password = 1234567
   steps:
    - В меню ввода никнейма вписываем "Alina95"
-   - В меню ввода указываем адрес электронной почты "le_ciel007@mail.ru"
+   - В меню ввода указываем адрес электронной почты "le_ciel0076@mail.ru"
    - В меню ввода пароля вводим пароль "1234567"
    - Повторяем пароль
    - Нажимаем на кнопку Submit
@@ -194,7 +194,7 @@
    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
    Nickname = пустое поле
-   Email = le_ciel007@mail.ru
+   Email = le_ciel006@mail.ru
    Password = 1234567
   steps:
    - Поле Nickname оставляем пустым
@@ -213,7 +213,7 @@
    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
    Nickname = Alina
-   Email = le_ciel007@mail.ru
+   Email = le_ciel006@mail.ru
    Password = пустое поле
   steps:
    - Заполняем поле Nickname
@@ -231,7 +231,7 @@
    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
    Nickname = Alina
-   Email = le_ciel007@mail.ru
+   Email = le_ciel006@mail.ru
    Password = привет
   steps:
    - Заполняем поле Nickname
@@ -250,7 +250,7 @@
    Открыта страница регистрации https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
    Nickname = Alina
-   Email = le_ciel007@mail.ru
+   Email = le_ciel006@mail.ru
    Password = привет
   steps:
    - Заполняем поле Nickname
@@ -798,7 +798,7 @@
    После отмены команды Give up игра продолжилась      
 
 - summary: |
-   Проверка возможности очистить введёное решение  
+   Проверка возможности очистить введённое решение  
   requirement: |
    При нажатии кнопки Reset solution происходит очистка поля ввода от ранее введенных данных
   prerequisites: | 
