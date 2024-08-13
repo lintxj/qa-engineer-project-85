@@ -911,49 +911,6 @@
    При нажатии на кнопку Copy history game url ссылка на неё скопировалась в буфер обмена
 
 - summary: |
-    Проверка совместимости сайта с последней версией Google Chrome
-  requirement: |
-    При открытии сайта в браузере Google Chrome всё отображается и работает корректно 
-  prerequisites: |
-    Открываем https://www.browserstack.com/
-  test-data: |
-    браузер Google Chrome версия 127
-  steps:
-    - Выбираем Google Chrome версия 127
-    - Открываем сайт https://codebattle.hexlet.io/#lobby через программу
-  expected-result: |
-    При открытии сайта в браузере Google Chrome всё отобразилось и работает
-    корректно   
-   
-- summary: |
-    Проверка совместимости сайта с последней версией браузера Opera
-  requirement: |
-    При открытии сайта в браузере Opera всё отображается и работает корректно 
-  prerequisites: |
-    Открываем https://www.browserstack.com/
-  test-data: |
-    браузер Opera версия 112
-  steps:
-    - Выбираем браузер Opera версия 112
-    - Открываем сайт https://codebattle.hexlet.io/#lobby через программу
-  expected-result: |
-    При открытии сайта в браузере Opera всё отобразилось и работает корректно   
-
-- summary: |
-    Проверка совместимости сайта с последней версией браузера Safari
-  requirement: |
-    При открытии сайта в браузере Safari всё отображается и работает корректно 
-  prerequisites: |
-    Открываем https://www.browserstack.com/
-  test-data: |
-    браузер Safari версия 5.1
-  steps:
-    - Выбираем браузер Safari версия 5.1
-    - Открываем сайт https://codebattle.hexlet.io/#lobby через программу
-  expected-result: |
-    При открытии сайта в браузере Safari всё отобразилось и работает корректно   
-
-- summary: |
     Проверка адаптивности сайта под устройства с разным разрешением экрана
   requirement: |
     При проверке адаптивности сайта под устройства с разным разрешением экрана сайт работает корректно
