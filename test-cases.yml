@@ -299,6 +299,7 @@
   requirement: |
    При выборе авторизации через профиль Github создается рабочий аккаунт на сайте  
   prerequisites: | 
+   Созданный профиль на сайте Github
    Открыта страница https://codebattle.hexlet.io/
    Пользователь не авторизирован
   test-data: |
@@ -314,6 +315,7 @@
   requirement: |
    При выборе авторизации через профиль Discord создается рабочий аккаунт на сайте  
   prerequisites: | 
+   Созданный профиль на сайте Discord
    Открыта страница https://codebattle.hexlet.io/
    Пользователь не авторизирован
   test-data: |
